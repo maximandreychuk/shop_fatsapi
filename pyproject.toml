@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "microshop-pr"
+version = "0.1.0"
+description = "Тестовый магазин"
+authors = ["Максим Андрейчук <maximandreychuk1999@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+uvicorn = {extras = ["standart"], version = "^0.30.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
