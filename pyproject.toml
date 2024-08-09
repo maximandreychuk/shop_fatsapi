@@ -6,6 +6,7 @@ authors = ["Максим Андрейчук <maximandreychuk1999@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
+
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.111.1"
